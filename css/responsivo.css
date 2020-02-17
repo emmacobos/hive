@@ -1,0 +1,18 @@
+.mobHid {
+	display: block;
+}
+
+.mobShow {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.mobHid {
+		display: none;
+	}
+
+	.mobShow {
+		display: block;
+	}
+}
+

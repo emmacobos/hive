@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Glyphiconshrw;
+    src: url("fonts\glyphicons-halflings-regular.woff");
+  }
+  @font-face {
+    font-family: Glyphiconshrt;
+    src: url("fonts\glyphicons-halflings-regular.ttf");
+  }
+  @font-face {
+    font-family: Glyphiconshrs;
+    src: url("fonts\glyphicons-halflings-regular.svg");
+  }
+  @font-face {
+    font-family: Glyphiconshre;
+    src: url("fonts\glyphicons-halflings-regular.eot");
+  }
+  .fondo{
+   position: absolute;
+  }
+  .logos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo{
+      margin-left: 2%;
+      margin-top: 3%;
+      display: block;
+  
+  }
+  .logo2{
+      margin-left: 35px;
+      display: block;
+  }
+  
+  
+  .wrapper{
+    overflow:hidden;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+  }
+    nav > ul {
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    }
+    nav ul li {
+    font-size: 13px;
+    }
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    text-decoration: none;
+          
+  }
+  a:link, a:visited {
+    color: white;
+  
+    }
+  .row{
+    color: white;
+  }
+  @import "css\main.css";
+  
+  .first-title{
+    font-size: 92px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .second-title{
+    margin-top: 0;
+    font-size: 23px;
+    margin-left: -8;
+  }
+  .third-title{
+    margin-left: 290px;
+    margin-top: 0;
+    font-size: 54px;
+    position: absolute;
+  }
+  .title-2{
+    color: white;
+  }
+  .hr-title{
+      display: block;
+      margin-top: 118px;
+      margin-bottom: 0.5em;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+      margin-left: 0;
+    width: 60%;
+    float: left;
+  }
+  .hr2-title{
+    display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+      margin-left: 0;
+    width: 60%;
+    float: left;
+  }
+  .hr-all{ 
+    display: block;
+    margin-top: 171px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+  .hr-easy{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  .aboutus-name{
+    display: flex;
+    color: black;
+  }
+  .aboutus-img{
+    display: flex;
+    justify-content: end;
+  }
+  .AboutUs {
+    display: flex;
+    justify-content: space-between
+  }
+  .aboutus-container{
+    display: flex;
+  }
+  .aboutus-container img{
+    width: 40%;
+    margin-top: 1%;
+    margin-right: 4%;
+  }
+  
+  .aboutus-title{
+  font-weight: bold;
+  color: #007bff;
+  font-size: 147%;
+  }
+  .aboutus-content{
+    width: 61%;
+  }
+  
+  .pilars-name{
+    display: flex;
+    color: black;
+  }
+  .pilars-img{
+    display: flex;
+    justify-content: end;
+  }
+  .pilars{
+    display: flex;
+    justify-content: space-between
+  }
+  .pilars-container{
+    display: flex;
+  }
+  .pilars-container img{
+    width: 40%;
+    margin-top: 1%;
+    margin-right: 4%;
+  }
+  .pilars-container-content{
+    
+  }
+  .pilars-content{
+    width: 61%;
+  }
+  .hr-easy-pilars{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  .bussiness-name{
+    display: flex;
+    color: black;
+  }
+  .bussiness-img{
+    display: flex;
+    justify-content: end;
+  }
+  .bussiness{
+    display: flex;
+    justify-content: space-between
+  }
+  .hr-easy-bussiness{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .bussiness-container{
+    display: flex;
+  }
+  

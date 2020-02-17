@@ -1,0 +1,333 @@
+@font-face {
+  font-family: Glyphicons;
+  src: url("fonts\glyphicons-halflings-regular.woff");
+}
+@font-face {
+  font-family: Glyphicons;
+  src: url("fonts\glyphicons-halflings-regular.ttf");
+}
+@font-face {
+  font-family: Glyphicons;
+  src: url("fonts\glyphicons-halflings-regular.svg");
+}
+@font-face {
+  font-family: Glyphicons;
+  src: url("fonts\glyphicons-halflings-regular.eot");
+}
+
+.first{
+  background-image: url(../images/imagenuno.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+ background-size: cover;
+ height: 130vh;
+}
+
+
+
+
+.navbar-img1{
+  width: 35px;
+}
+.navbar-img2{
+  width: 130px;
+  margin-left: 15px;
+}
+.navbar{
+  padding-top: 40px;
+}
+.nav-link{
+  color: lightgray;
+}
+.nav-link:hover{
+  color: lightgray;
+}
+.nav-item{
+  font-size: 11px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-weight: bold;
+}
+.navbar-toggler{
+  background-color: #17a2b8;
+  border-radius: 0;
+  height: 50px;
+}
+
+/* #text-1{
+  width: 600px;
+  margin-left: 150px;
+  height: 100vh;;
+  color: white;
+  position: absolute;
+  
+} */
+
+#text-1{
+  height: 100vh;
+  color: white;
+  position: absolute;
+  transform: translate(30%, -100%)
+}
+#text-1 hr{
+  display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+      margin-left: 0;
+    width: 600px;
+}
+#text-1 h1{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#text-1 h6{
+  margin-top: 0;
+  font-size: 25px;
+}
+.title-3{
+  margin-left: 170px;
+  font-size: 54px;
+  color: white;
+  position: absolute;
+  transform: translate(25px, -67px);
+}
+
+.aboutus-hr-1{
+  margin-bottom: 10px;
+  margin-top: 70px;
+  color: black;
+}
+
+.aboutus-1{
+  display: flex;
+  justify-content: space-between;
+}
+.aboutus-container{
+  margin-top: 20px;
+}
+.aboutus-container2{
+  margin-top: 15px;
+
+}
+.aboutus-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.aboutus-image{
+  width: 450px;
+}
+.aboutus-img{
+  height: 15px;
+}
+
+.pilars-hr-1{
+  margin-bottom: 10px;    
+  margin-top: 70px;
+}
+
+.pilars-1{
+  display: flex;
+  justify-content: space-between;
+}
+.pilars-container{
+  margin-top: 60px;
+}
+.pilars-img{
+  height: 15px;
+}
+.pilars-image{
+  width: 420px;
+}
+.bussiness-hr-1{
+  margin-bottom: 10px;  
+  margin-top: 70px;
+}
+.bussiness-img{
+  height: 15px;
+}
+.bussiness-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.texts{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.vermas{
+  color: #17a2b8;
+  font-weight: 800;
+  font-size: 15px;
+}
+.titles-h3{
+  margin-left: 15px;
+  font-size: 14px;
+}
+.col-2{
+  overflow: hidden;
+}
+
+.solutions-img img{
+  width: 250px;
+}
+.ideas-img img{
+  width: 250px;
+}
+.smart-img img{
+  width: 250px;
+}
+.work-img img{
+  width: 250px;
+}
+.ecosistema-hr-1{
+  margin-bottom: 10px;  
+  margin-top: 70px;
+}
+
+.ecosistema-1{
+  display: flex;
+  justify-content: space-between;
+}
+.ecosistema-img{
+  height: 15px;
+}
+.ecosistema-image{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.ecosistema-text{
+  margin-top: 40px;
+  margin-bottom: 100px;
+
+}
+.hitos-hr{
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-austral{
+  width: 500px;
+}
+
+#austral{
+max-width: 960px;
+overflow: hidden;
+} 
+
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+  font-weight: bold;
+}
+.background-final img{
+ width: 100vw;
+ height: 90vh;
+ object-fit: cover;
+ position: relative;
+}
+
+.ourteam{
+  background-color: white;
+  padding: 25px;
+  margin-top: -130px;
+}
+
+.ourteam-hr-1{
+  margin-bottom: 10px;
+}
+
+.ourteam-1{
+  display: flex;
+  justify-content: space-between;
+}
+.ourteam-img{
+  height: 15px;
+}
+
+.ourteam-container{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.number{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.partners-hr-1{
+  margin-bottom: 10px;
+
+  }
+.partners-1{
+  display: flex;
+  justify-content: space-between;
+}
+.images-partners{
+  margin-bottom: 100px;
+}
+.images-partners img{
+  width: 503px;
+  margin: 25px;
+}
+.partners-img{
+  height: 15px;
+}
+.results-hr-1{
+  margin-bottom: 10px;
+}
+
+.results-1{
+  display: flex;
+  justify-content: space-between;
+}
+.results{
+  display: flex;
+  margin-bottom: 100px;
+}
+.results-number{
+  font-size: 100px;
+}
+.contact-hr-1{
+  margin-bottom: 10px;}
+
+.contact-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.contact-img{
+  height: 15px;
+}
+.btn-primary{
+  border-radius: 0;
+  height: 40px;
+  width: 100px;
+}
+.form-email-container{
+  margin-bottom: 60px;
+}
+.ultimo-hr{
+  margin-bottom: 10px;
+}
+.ultimo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.ultimo h1{
+  font-weight: 900;
+}
